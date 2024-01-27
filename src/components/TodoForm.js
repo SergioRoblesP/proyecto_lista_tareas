@@ -8,6 +8,7 @@ export const TodoForm = () => {
 
         console.log(value)
     }
+        
     return (
         <form className='TodoForm' onSubmit={handleSubmit}>
             <input type='text' className='todo-input'
